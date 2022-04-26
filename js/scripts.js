@@ -30,7 +30,7 @@ $(document).ready(function() {
     const number1 = parseInt($("#subtract1").val());
     const number2 = parseInt($("#subtract2").val());
     const result = subtract(number1, number2);
-    $("#output").text(result);
+    $("#bola").text(result);
     });
    });
 
@@ -41,7 +41,7 @@ $(document).ready(function() {
     const number1 = parseInt($("#multiply1").val());
     const number2 = parseInt($("#multiply2").val());
     const result = multiply(number1, number2);
-    $("#output").text(result);
+    $("#saheed").text(result);
     });
    });
 
@@ -53,6 +53,6 @@ $(document).ready(function() {
     const number1 = parseInt($("#divide1").val());
     const number2 = parseInt($("#divide2").val());
     const result = divide(number1, number2);
-    $("#output").text(result);
+    $("#tola").text(result);
     });
    });
